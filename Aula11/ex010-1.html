@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De onde você é?</title>
+</head>
+<style>
+    body{
+        font: normal 12pt Arial;
+    }
+    input{
+        font: normal 12pt Arial;
+    }
+</style>
+<body>
+    <h1>Sistema de nacionalidade</h1>
+    De que pais você é? <input type="text" name="txtpais" id="txtpais">
+    <input type="button" value="Verificar" onclick="checar()">
+    <Div id="res"></Div>
+    <script>S
+        function checar() {
+            var txtpais = document.getElementById('txtpais')
+            var res = document.querySelector('div#res')
+            res.innerHTML = `<p>Vivendo em ${txtpais.value}</p>`
+            
+            // txtpais.value == 'Brasil'? res.innerHTML += '<p>HUEHUEHUEUHEUHUEHUEEHUE</p>':res.innerHTML += '<p>Você é estrangeiro!</p>'
+            
+            if(txtpais.value == 'Brasil') {
+                res.innerHTML += '<p>HUEHUEHUEUHEUHUEHUEEHUE</p>'
+            } else {
+                res.innerHTML += '<p>Você é estrangeiro!</p>'
+            }
+        }
+        
+    </script>
+</body>
+</html>

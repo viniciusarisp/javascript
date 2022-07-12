@@ -1,0 +1,59 @@
+
+@font-face {
+    font-family: 'sanpearls';
+    src: url('Fontes/TAN-PEARL.otf') format('opentype'),
+    url('Fontes/TAN-PEARL.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'tenorsans';
+    src: url('Fontes/TenorSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-color: #889055;
+    padding: 40pt;
+    margin: 1em;
+    border: 10px #631431;
+}
+header{
+    
+    font-family: 'sanpearls' , Times, serif;
+    font-size: 30pt;
+    text-align: center;
+    padding: 20px;
+    
+}
+section{
+    margin: 0 auto;
+    background: #df532f;
+    color: #889055;
+    box-shadow: 5px 5px 10px #38593e;
+    border: 2px solid #631431;
+    border-radius: 50px;
+    padding: 20px;
+    height: auto;
+    text-align: center
+    
+}
+input{
+    font-family: 'sanpearls', Times , serif;
+    font-size: 25pt;
+    background-color: #631431;
+    border-radius: 5pt;
+    padding: 20pt;
+}
+footer{
+    color: #631431;
+    font-size: 18pt;
+    text-align: center;
+    font-style: italic;
+}
+div{
+    text-align: center;
+    font-family: 'tenorsans', Times, serif;
+    font-size: 25pt;
+    padding: 20pt;
+}
